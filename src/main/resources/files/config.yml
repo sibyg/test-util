@@ -1,0 +1,8 @@
+config:
+  backend: E05
+  environment: OCP08
+  browser: CHROME
+  deviceType: DESKTOP
+  browserStackBrowser: CHROME_LATEST
+  browserStackTunnel: false
+  baseUrl: http://prodman.localhost.com:8080

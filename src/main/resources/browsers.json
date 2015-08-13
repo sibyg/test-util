@@ -1,0 +1,270 @@
+{
+  "chrome_latest": {
+    "browser": "Chrome",
+    "browser_version": "38.0",
+    "os": "Windows",
+    "os_version": "7",
+    "resolution": "1024x768"
+  },
+  "iPhone_5": {
+    "browserName": "iPhone",
+    "platform": "MAC",
+    "device": "iPhone 5"
+  },
+  "kindle_fire": {
+    "browserName": "android",
+    "platform": "ANDROID",
+    "device": "Amazon Kindle Fire 2"
+  },
+  "ie8": {
+    "browser": "IE",
+    "browser_version": "8.0",
+    "os": "Windows",
+    "os_version": "7",
+    "resolution": "1024x768",
+    "ignoreProtectedModeSettings": true,
+    "ensureCleanSession": true,
+    "nativeEvents": true,
+    "ignoreZoomSetting": true
+  },
+  "ie9": {
+    "browser": "IE",
+    "browser_version": "9.0",
+    "os": "Windows",
+    "os_version": "7",
+    "resolution": "1024x768",
+    "ignoreProtectedModeSettings": true,
+    "ensureCleanSession": true,
+    "nativeEvents": false,
+    "ignoreZoomSetting": true
+  },
+  "ie10": {
+    "browser": "IE",
+    "browser_version": "10.0",
+    "os": "Windows",
+    "os_version": "7",
+    "resolution": "1024x768",
+    "ignoreProtectedModeSettings": true,
+    "ensureCleanSession": true,
+    "nativeEvents": false,
+    "ignoreZoomSetting": true
+  },
+  "ie11": {
+    "browser": "IE",
+    "browser_version": "11.0",
+    "os": "Windows",
+    "os_version": "7",
+    "resolution": "1024x768",
+    "ignoreProtectedModeSettings": true,
+    "ensureCleanSession": true,
+    "nativeEvents": false,
+    "ignoreZoomSetting": true
+  },
+  "safari": {
+    "browser": "Safari",
+    "browser_version": "8.0",
+    "os": "OS X",
+    "os_version": "Yosemite",
+    "resolution": "1024x768"
+  },
+  "firefox": {
+    "browser": "Firefox",
+    "browser_version": "33.0",
+    "os": "Windows",
+    "os_version": "8.1",
+    "resolution": "1024x768"
+  },
+  "nexus4": {
+    "os": "android",
+    "os_version": "4.2",
+    "browser_version": null,
+    "browser": "android",
+    "device": "Google Nexus 4"
+  },
+  "nexus6": {
+    "os": "android",
+    "os_version": "5.0",
+    "browser_version": null,
+    "browser": "android",
+    "device": "Google Nexus 6"
+  },
+  "nexus5": {
+    "os": "android",
+    "os_version": "5.0",
+    "browser": "android",
+    "device": "Google Nexus 5"
+  },
+  "nexus9": {
+    "os": "android",
+    "os_version": "5.0",
+    "browser_version": null,
+    "browser": "android",
+    "device": "Google Nexus 9"
+  },
+  "htcOneX": {
+    "os": "android",
+    "os_version": "4.0",
+    "browser_version": null,
+    "browser": "android",
+    "device": "HTC One X"
+  },
+  "motorolaRazr": {
+    "os": "android",
+    "os_version": "4.0",
+    "browser_version": null,
+    "browser": "android",
+    "device": "Motorola Razr"
+  },
+  "sonyXperiaTipo": {
+    "os": "android",
+    "os_version": "4.0",
+    "browser_version": null,
+    "browser": "android",
+    "device": "Sony Xperia Tipo"
+  },
+  "googleNexus": {
+    "os": "android",
+    "os_version": "4.0",
+    "browser": "android",
+    "device": "Google Nexus"
+  },
+  "amazonKindleFire2": {
+    "os": "android",
+    "os_version": "4.0",
+    "browser_version": null,
+    "browser": "android",
+    "device": "Amazon Kindle Fire 2"
+  },
+  "amazonKindleFireHD8.9": {
+    "os": "android",
+    "os_version": "4.0",
+    "browser_version": null,
+    "browser": "android",
+    "device": "Amazon Kindle Fire HD 8.9"
+  },
+  "samsungGalaxyNote10.1": {
+    "os": "android",
+    "os_version": "4.0",
+    "browser_version": null,
+    "browser": "android",
+    "device": "Samsung Galaxy Note 10.1"
+  },
+  "samsungGalaxyS3": {
+    "os": "android",
+    "os_version": "4.1",
+    "browser_version": null,
+    "browser": "android",
+    "device": "Samsung Galaxy S3"
+  },
+  "samsungGalaxyNote2": {
+    "os": "android",
+    "os_version": "4.1",
+    "browser_version": null,
+    "browser": "android",
+    "device": "Samsung Galaxy Note 2"
+  },
+  "MotorolaRazrMaxxHD": {
+    "os": "android",
+    "os_version": "4.1",
+    "browser_version": null,
+    "browser": "android",
+    "device": "Motorola Razr Maxx HD"
+  },
+  "googleNexus7": {
+    "os": "android",
+    "os_version": "4.1",
+    "browser_version": null,
+    "browser": "android",
+    "device": "Google Nexus 7"
+  },
+  "samsungGalaxyS4": {
+    "os": "android",
+    "os_version": "4.3",
+    "browser_version": null,
+    "browser": "android",
+    "device": "Samsung Galaxy S4"
+  },
+  "samsungGalaxyNote3": {
+    "os": "android",
+    "os_version": "4.3",
+    "browser_version": null,
+    "browser": "android",
+    "device": "Samsung Galaxy Note 3"
+  },
+  "amazonKindleFireHDX7": {
+    "os": "android",
+    "os_version": "4.3",
+    "browser_version": null,
+    "browser": "android",
+    "device": "Amazon Kindle Fire HDX 7"
+  },
+  "samsungGalaxyS5": {
+    "os": "android",
+    "os_version": "4.4",
+    "browser_version": null,
+    "browser": "android",
+    "device": "Samsung Galaxy S5"
+  },
+  "samsungGalaxyS5Mini": {
+    "os": "android",
+    "os_version": "4.4",
+    "browser_version": null,
+    "browser": "android",
+    "device": "Samsung Galaxy S5 Mini"
+  },
+  "hTCOneM8": {
+    "os": "android",
+    "os_version": "4.4",
+    "browser_version": null,
+    "browser": "android",
+    "device": "HTC One M8"
+  },
+  "SamsungGalaxyTab410.1": {
+    "os": "android",
+    "os_version": "4.4",
+    "browser_version": null,
+    "browser": "android",
+    "device": "Samsung Galaxy Tab 4 10.1"
+  },
+  "iPhone5": {
+    "os": "ios",
+    "os_version": "6.1",
+    "browser_version": null,
+    "browser": "iphone",
+    "device": "iPhone 5"
+  },
+  "iPhone5S": {
+    "os": "ios",
+    "os_version": "7.0",
+    "browser_version": null,
+    "browser": "iphone",
+    "device": "iPhone 5S"
+  },
+  "iPhone5C": {
+    "os": "ios",
+    "os_version": "7.0",
+    "browser_version": null,
+    "browser": "iphone",
+    "device": "iPhone 5C"
+  },
+  "iPad4thGen": {
+    "os": "ios",
+    "os_version": "7.0",
+    "browser_version": null,
+    "browser": "ipad",
+    "device": "iPad 4th Gen"
+  },
+  "iPadAir": {
+    "os": "ios",
+    "os_version": "7.0",
+    "browser_version": null,
+    "browser": "ipad",
+    "device": "iPad Air"
+  },
+  "iPadMiniRetina": {
+    "os": "ios",
+    "os_version": "7.0",
+    "browser": "ipad",
+    "device": "iPad mini Retina"
+  }
+}
