@@ -1,4 +1,4 @@
-package com.siby.automation.actions.mobile_testing;
+package com.siby.automation.mobile_testing;
 
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;

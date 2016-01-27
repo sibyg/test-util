@@ -18,6 +18,7 @@ import java.util.List;
 import java.util.logging.Logger;
 
 import static com.google.common.collect.Lists.newArrayList;
+import static java.lang.String.format;
 import static java.util.concurrent.TimeUnit.SECONDS;
 import static org.apache.commons.lang3.StringUtils.isNotBlank;
 import static org.openqa.selenium.support.ui.ExpectedConditions.textToBePresentInElementLocated;
@@ -58,6 +59,10 @@ public class BasePage {
 
     public List<WebElement> findElementsBy(By by) {
         return driver.findElements(by);
+    }
+
+    public List<WebElement> findElementsByText(String xpath, String text) {
+        return driver.findElements(By.xpath(format("//span[contains(text(), '%s')]", text)));
     }
 
     public void select(By by, String value) {
@@ -306,7 +311,7 @@ public class BasePage {
     public void scrollTo(By element) {
         WebElement webElement = getElement(element);
         int y = webElement.getLocation().getY();
-        String script = String.format("scroll(0, %d)", y);
+        String script = format("scroll(0, %d)", y);
         executeJScript(script);
     }
 

@@ -1,4 +1,4 @@
-package com.siby.automation.actions.mobile_testing;
+package com.siby.automation.mobile_testing;
 
 import io.appium.java_client.ios.IOSDriver;
 import org.junit.After;
@@ -36,7 +36,8 @@ public class SafariIOSAppiumExample {
     }
 
     @After
-    public void afterTest() {
+    public void afterTest() throws InterruptedException {
+        Thread.sleep(2000);
         driver.quit();
     }
 }
